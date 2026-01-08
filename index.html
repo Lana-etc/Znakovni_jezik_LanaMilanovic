@@ -118,8 +118,6 @@
                                 padding: 0.6rem 1.25rem;
                                 border-radius: 10px;
                                 margin: 2.5rem 0 1.25rem;}
-           
-           button: active {background-color: #E3E6EF;}
 
             :root {accent-color: #C8D2AE;}
 
@@ -171,11 +169,18 @@
             a:hover {color:#8C9673;}
             a:active {color:#7E4B4B;}
 
-            .img_ASL{width: 100%;
+            .img_ASL{width: 100px;
+                     height: 100px
                     max-width: 7rem;
                     height: auto;
                     border-radius: 20px;
-                    vertical-align: baseline;}
+                    vertical-align: baseline;
+                    transition: width 2s, height 2s, transform 2s;}
+
+           img:hover {width: 200px;
+                      height: 200px;
+                      transform: rotate(360deg);}
+        
 
             #primjeri {color: #dac1bd;
                         margin: 4.25rem 0;}
@@ -192,7 +197,11 @@
 
             object{margin-bottom: 6rem;
                     width: 100%;
-                    max-width: 50rem;}
+                    max-width: 50rem;
+                    border: 8px solid #E3E6EF;}
+           
+           object:active{border-color: #E8D8D5;}
+                 
 
            input:focus {background-color: #ced2c2;}
 
