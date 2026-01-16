@@ -31,7 +31,7 @@
             strong{font-weight: 600;
                     color: #8C9673;}
 
-            p em:first-child {color: #788BAB;}
+            li em:first-child {color: #788BAB;}
 
             ol, ul {list-style: inside;
                     line-height: 170%;}
@@ -57,7 +57,8 @@
                     padding: 1.25rem 1.25rem 2rem;
                     animation-name: promjenaPozadine;
                     animation-duration: 6s;
-                    animation-delay: 2s}
+                    animation-delay: 2s;
+                    animation-iteration-count: infinite;}
 
            @keyframes promjenaPozadine {
               from {background-color: #E3E6EF;}
@@ -74,7 +75,19 @@
 
             .div_br_ljudi {display: inline-block;
                     text-align: left;
-                    padding: 1.25rem;}
+                    padding: 1.25rem;
+                    animation-name: pomak;
+                    animation-duration: 6s;
+                    animation-timing-function: linear;
+                    animation-iteration-count: infinite;
+                    animation-delay: 4s;
+                    animation-direction: alternate;}
+
+           @keyframes pomak {
+               0% {left 0px;}
+               100% {left 500px;}
+           }
+           
                     
             .div_br {border-style: dashed;
                     border-width: 2px;
