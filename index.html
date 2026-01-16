@@ -31,7 +31,7 @@
             strong{font-weight: 600;
                     color: #8C9673;}
 
-            em{color:#788BAB;}
+            p em:first-child {color: #788BAB;}
 
             ol, ul {list-style: inside;
                     line-height: 170%;}
@@ -56,7 +56,8 @@
             .div_kakva_stranica {background-color: #E3E6EF;
                     padding: 1.25rem 1.25rem 2rem;
                     animation-name: promjenaPozadine;
-                    animation-duration: 6s;}
+                    animation-duration: 6s;
+                    animation-delay: 2s}
 
            @keyframes promjenaPozadine {
               from {background-color: #E3E6EF;}
@@ -68,6 +69,8 @@
                     flex-wrap: wrap;
                     gap: 2.5rem;
                     margin: 1.5rem;}
+
+           .div_primjeri > .znak {padding: 0.6rem;}
 
             .div_br_ljudi {display: inline-block;
                     text-align: left;
@@ -153,7 +156,7 @@
                 border: 2px solid #E6C6C1;
                 background-color: #E6C6C1;
                 color:#7E4B4B;
-                height: 3.75rem;}
+                height: 3.75rem;} 
 
             tbody {background-color: #E8D8D5;
                     text-align: center;
@@ -161,6 +164,8 @@
 
             td{padding:2.5rem;
                 border: 2px solid #E6C6C1;}
+
+           tbody tr:nth-of-type(even) {background-color: #E6C6C1;}
 
             .nazivi {font-style: italic;
                     font-weight: 600;
