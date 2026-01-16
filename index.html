@@ -97,7 +97,7 @@
             .plavi {background-color: #E3E6EF;}
             .zeleni {background-color: #C8D2AE;}
 
-            #p_bold {font-weight: 500;
+            .p_bold {font-weight: 500;
                     margin-top: 2.5rem;}
 
             sub{font-family: "Imprima", Arial, Helvetica, sans-serif;
@@ -310,7 +310,7 @@
             <fieldset>
             <legend>Kratki kviz o znakovnom jeziku</legend>
 
-            <p id="p_bold">1. Koji znakovni jezik ima <strong>najveći broj korisnika</strong> u svijetu?</p>
+            <p class="p_bold">1. Koji znakovni jezik ima <strong>najveći broj korisnika</strong> u svijetu?</p>
                 <input type="radio" id="asl" name="pitanje1" value="asl">
                     <label for="asl">ASL (Američki znakovni jezik)</label><br>
                 <input type="radio" id="bsl" name="pitanje1" value="bsl">
@@ -318,7 +318,7 @@
                 <input type="radio" id="csl" name="pitanje1" value="csl">
                     <label for="csl">CSL (Kineski znakovni jezik)</label><br>
 
-            <p id="p_bold">2. Kako se zove <strong>osoba koja prevodi između znakovnog i govornog jezika</strong>?</p>
+            <p class="p_bold">2. Kako se zove <strong>osoba koja prevodi između znakovnog i govornog jezika</strong>?</p>
                 <input list="pitanje2" name="pitanje_2" id="pitanje_2" placeholder="Upiši odgovor">
                     <datalist id="pitanje2">
                         <option value="Tumač znakovnog jezika">
@@ -327,7 +327,7 @@
                         <option value="Glasovni vodič">
                     </datalist>
 
-            <p id="p_bold">3. Koliko <strong>osnovnih parametara</strong> ima svaki znak u znakovnom jeziku?</p>
+            <p class="p_bold">3. Koliko <strong>osnovnih parametara</strong> ima svaki znak u znakovnom jeziku?</p>
                 <select name="pitanje3" id="pitanje3">
                     <option value="2">Dva</option>
                     <option value="4">Tri</option>
@@ -335,30 +335,30 @@
                     <option value="7">Sedam</option>
                 </select>
 
-            <p id="p_bold">4. Koji od sljedećih su <strong> osnovni parametri</strong> u znakovnom jeziku? <br>(5 je točnih odgovora) </p>
-                <input type="checkbox" id="Oblik šake" name="pitanje4" value="Oblik šake">
-                    <label for="Oblik šake">Oblik šake</label><br>
+            <p class="p_bold">4. Koji od sljedećih su <strong> osnovni parametri</strong> u znakovnom jeziku? <br>(5 je točnih odgovora) </p>
+                <input type="checkbox" id="oblik_sake" name="pitanje4" value="Oblik šake">
+                    <label for="oblik_sake">Oblik šake</label><br>
 
                 <input type="checkbox" id="Intonacija" name="pitanje4" value="Intonacija">
                     <label for="Intonacija">Intonacija</label><br>
 
-                <input type="checkbox" id="Orijentacija dlana" name="pitanje4" value="Orijentacija dlana">
-                    <label for="Orijentacija dlana">Orijentacija dlana</label><br>
+                <input type="checkbox" id="Orijentacija_dlana" name="pitanje4" value="Orijentacija dlana">
+                    <label for="Orijentacija_dlana">Orijentacija dlana</label><br>
 
-                <input type="checkbox" id="Prostor izvođenja" name="pitanje4" value="Prostor izvođenja">
-                    <label for="Prostor izvođenja">Prostor izvođenja</label><br>
+                <input type="checkbox" id="Prostor_izvodenja" name="pitanje4" value="Prostor izvođenja">
+                    <label for="Prostor_izvodenja">Prostor izvođenja</label><br>
 
-                <input type="checkbox" id="Brzina izvođenja" name="pitanje4" value="Brzina izvođenja">
-                    <label for="Brzina izvođenja">Brzina izvođenja</label><br>
+                <input type="checkbox" id="Brzina_izvodenja" name="pitanje4" value="Brzina izvođenja">
+                    <label for="Brzina_izvodenja">Brzina izvođenja</label><br>
 
                 <input type="checkbox" id="Pokret" name="pitanje4" value="Pokret">
                     <label for="Pokret">Pokret</label><br>
                 
-                <input type="checkbox" id="Smjer pogleda" name="pitanje4" value="Smjer pogleda">
-                    <label for="Smjer pogleda">Smjer pogleda i izrazi lica</label><br>
+                <input type="checkbox" id="Smjer_pogleda" name="pitanje4" value="Smjer pogleda">
+                    <label for="Smjer_pogleda">Smjer pogleda i izrazi lica</label><br>
 
                 
-                <p id="p_bold">5. Kada je slijedeći<strong> Međunarodni dan znakovnog jezika</strong>?</p>
+                <p class="p_bold">5. Kada je slijedeći<strong> Međunarodni dan znakovnog jezika</strong>?</p>
                 <input type="date" id="datum" name="datum"><br>
 
                 <input type="button" value="Završi" onclick="alert('TOČNI ODGOVORI SU: 1. ASL 2. Tumač znakovnog jezika 3. Pet 4. Brzina izvođenja i intonacija su neispravni 5. 23. rujna 2026.')">
